@@ -1,0 +1,15 @@
+cmd: python code/plot.py
+deps:
+- md5: 52ad7b9310037aa53e53768ad824956a
+  path: code/conf.py
+- md5: f88458efaa3d332ea666a7684192ce15
+  path: code/plot.py
+- md5: 4e930c46c4ec5d0793d7620f8cedb45e
+  path: data/history.p
+outs:
+- cache: true
+  md5: b66f0358f4d45e126ad65661cb4217f5
+  path: data/plot_loss.jpeg
+- cache: true
+  md5: 111df7adafcb21210faa795219cb1aba
+  path: data/plot_acc.jpeg
